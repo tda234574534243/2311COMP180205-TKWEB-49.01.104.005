@@ -1,0 +1,34 @@
+.style {
+    margin: 10px;
+    position: relative;
+    width: 200px;
+    height: auto;
+    
+}
+button {
+    color: rgb(201, 62, 219);
+    background-color: rgba(49, 75, 75, 0.678);
+    border-radius: 10px;
+    height: 50px;
+    border: 2px solid rgba(105, 164, 231, 0.548);
+
+}
+button:hover {
+    transition: 0.5s linear;
+    background-color: rgb(223, 128, 226);
+    color: rgb(71, 66, 66);
+}
+.border {
+    border: 5px solid rgb(184, 107, 214);
+    width: 500px;
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+    background-color: rgb(91, 183, 230);
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-image: url('chill.png');
+}
