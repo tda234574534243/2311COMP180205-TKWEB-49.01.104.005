@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(117, 176, 231);
+}
+#shark{
+    left: 100px;
+    top: 400px;
+    position:absolute;
+    animation-name: Shark;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Shark{
+    0% {left: 500px;top: 300px;}
+    20%{left: 1200px;top: 500px;}
+    40%{left: 200px;top: 200px;}
+    50%{left: 300px;top: 100px;}
+    60%{left: 300px;top: 100px;}
+    80%{left: 200px; top: 200px;}
+    100%{left: 200px; top: 100px; transform: scaleX(-1);}
+}
+#tholan1{
+    left: 100px;
+    top: 300px;
+    position:absolute;
+    animation-name: Tholan1;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Tholan1{
+    0% {left: 400px;top: 300px;}
+    20%{left: 100px;top: 500px;}
+    40%{left: 200px;top: 200px;}
+    50%{left: 200px;top: 400px;}
+    60%{left: 500px;top: 500px;}
+    80%{left: 700px; top: 900px;}
+    100%{left: 700px; top: 700px; transform: scaleX(-1);}
+}
+#rua{
+    left: 100px;
+    top: 400px;
+    position:absolute;
+    animation-name: rua;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes rua{
+    0% {left: 500px;top: 300px;}
+    20%{left: 1200px;top: 500px;}
+    40%{left: 200px;top: 200px;}
+    50%{left: 700px;top: 100px;}
+    60%{left: 300px;top: 700px;}
+    80%{left: 800px; top: 200px;}
+    100%{left: 200px; top: 800px; transform: scaleX(-1);}
+}
+#tholan2{
+    left: 100px;
+    top: 300px;
+    position:absolute;
+    animation-name: Tholan2;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Tholan2 {
+    0% {left: 500px;top: 100px;}
+    20%{left: 1200px;top: 50px;}
+    40%{left: 200px;top: 10px;}
+    50%{left: 700px;top: 50px;}
+    60%{left: 300px;top: 700px;}
+    80%{left: 800px; top: 200px;}
+    100%{left: 200px; top: 800px; transform: scaleX(-1);}
+}
+.taobien{
+    position: relative;
+    top: 600px;
+}
+.taobien1{
+    position: relative;
+    left: 800px;
+    top: 200px;
+}
+.bongbong1{
+    position: relative;
+    left: 400px;
+    top: -900px
+}
+.bongbong2{
+    position: relative;
+    left: 1000px;
+    top:-900px
+}
+.bongbong3{
+    position: relative;
+    top: -1100px;
+}
+#container{
+    width: 1200px;
+    height: 700px;
+}
+#caxanh{
+    left: 100px;
+    top: 300px;
+    position:absolute;
+    animation-name: caxanh;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes caxanh{
+    0% {left: 400px;top: 100px;}
+    20%{left: 300px;top: 800px;}
+    40%{left: 200px;top: 200px;}
+    50%{left: 400px;top: 700px;}
+    60%{left: 500px;top: 500px;}
+    80%{left: 200px; top: 900px;}
+    100%{left: 100px; top: 700px; transform: scaleX(-1);}
+}
+#cavang{
+    left: 100px;
+    top: 300px;
+    position:absolute;
+    animation-name: cavang;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes cavang{
+    0% {left: 100px;top: 100px;}
+    20%{left: 300px;top: 800px;}
+    40%{left: 200px;top: 200px;}
+    50%{left: 900px;top: 400px;}
+    60%{left: 500px;top: 300px;}
+    80%{left: 000px; top: 200px;}
+    100%{left: 100px; top: 100px; transform: scaleX(-1);}
+}
+#tholan3{
+    left: 100px;
+    top: 300px;
+    position:absolute;
+    animation-name: tholan3;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes tholan3{
+    0% {left: 100px;top: 120px;}
+    20%{left: 340px;top: 700px;}
+    40%{left: 230px;top: 200px;}
+    50%{left: 80px;top: 50px;}
+    60%{left: 500px;top: 300px;}
+    80%{left: 90px; top: 200px;}
+    100%{left: 100px; top: 400px; transform: scaleX(-1);}
+}

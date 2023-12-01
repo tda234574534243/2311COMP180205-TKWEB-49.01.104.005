@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <title>Hồ cá vui nhộn</title>
+    <style>
+        body {
+            transition: background-image 1s;
+            background-size: cover;
+        }
+    </style>
+    
+</head>
+<body id="body">
+    <button onclick="changeBackground('vutru.png')">Đổi hình 1</button>
+    <button onclick="changeBackground('furina.png')">Đổi hình 2</button>
+    <button onclick="changeBackground('underthesea.png')">Đổi hình 3</button>
+    <script>
+        function changeBackground(imageUrl) {
+            document.getElementById('body').style.backgroundImage = 'url(' + imageUrl + ')';
+        }
+    </script>
+    <center>
+    <div id="container">
+        <div id="shark">
+            <img src="shark.png" alt="" width="auto" height="auto">
+        </div>
+        <div id="tholan1">
+            <img src="diver1.png" alt="">
+        </div>
+        <div id="tholan2">
+            <img src="diver2.png" alt="">
+        </div>
+        <div id="rua">
+            <img src="turtle.png" alt="">
+        </div>
+        <div class="taobien">
+            <img src="seaweed.gif" alt="" width="200px" height="300px">
+        </div>
+        <div class="taobien1">
+            <img src="seaweed.gif" alt="" width="300px" height="400px">
+        </div>
+        <div class="bongbong1">
+            <img src="bongbong.gif" alt="" width="200px" height="auto">
+        </div>
+        <div class="bongbong2">
+            <img src="bongbong.gif" alt="" width="100px" height="auto">
+        </div>
+        <div class="bongbong3">
+            <img src="bongbong.gif" alt="" width="50px" height="auto">
+        </div>
+        <div id="caxanh">
+            <img src="faintSchool.png" alt="">
+        </div>
+        <div id="cavang">
+            <img src="goldFishSchool.png" alt="">
+        </div>
+        <div id="tholan3">
+            <img src="diver3.png" alt="">
+        </div>
+
+    </div>
+</center>
+</body>
+</html>
