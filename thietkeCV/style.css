@@ -1,0 +1,40 @@
+.border {
+    border: 10px solid rgba(0, 0, 0, 0);
+    width: 800px;
+    height: 900px;
+    margin: 30px;
+    box-shadow: 5px 5px 5px ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+.border2 {
+    border: 10px solid rgb(4, 121, 121);
+    background-color: rgb(4, 121, 121);
+
+    width: 40%;
+    height: 100%;
+
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+
+}
+#img {
+    float: right;
+    position: relative;
+    top: 40%;
+    right: 20%;
+    opacity: 0.4;
+}
+#img2 {
+    position: relative;
+    left: 30%;
+    border-radius: 50px ;
+}
+.kinhnghiem1{
+    position: relative;
+    left: 100px;
+    padding: 0px;
+
+}
