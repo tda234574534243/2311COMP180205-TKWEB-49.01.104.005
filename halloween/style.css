@@ -1,0 +1,91 @@
+body {
+    background-image: url('anhnen.png');
+}
+
+h1 {
+    color: beige;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    color: white;
+}
+p {
+    color: white;
+}
+#tieude {
+    width: 400px;
+}
+button {
+    border-radius: 10px;
+    height: 60px;
+    background-color: orange;
+    transform: 0.5s;
+    transition: 0.5 linear;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    transform: 0.5s;
+    background-color: black;
+    transition: 0.5s linear;
+}
+a:hover{
+    transition: 0.5s;
+    transform: 0.5s;
+    color: rgb(17, 16, 14);
+}
+.form-text{
+    color: white;font-size: 16px;
+}
+.form-label{
+    color: white;
+}
+h4 {
+    color: white;
+}
+.border{
+    background-color: rgb(11, 12, 12);
+    padding: 10px;
+    border-radius: 20px;
+}
+.product {
+    color: white;
+}
+@media (max-width: 767.98px) { 
+    body{
+        background-image: url('thietbididong.jpg');
+    }
+    p {
+        color: black;
+    }
+    h1 {
+        color: black;
+    }
+    .form-text {
+        color: black;
+    }
+    .form-label {
+        color: black;
+    }
+    h4 {
+        color: black;
+    }
+    .border{
+        background-color: rgb(200, 211, 211);
+        padding: 10px;
+        border-radius: 20px;
+    }
+    h2{
+        color: black;
+    }
+    #tieude {
+        width: 200px;
+    }
+    .product {
+        color: black;
+    }
+ }
